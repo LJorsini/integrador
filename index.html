@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cafeteria</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="icon" href="./img/logo.svg">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+
+    <header class="header header-inicio">
+        <div class="contenido-header contenedor">
+
+            <div class="barra">
+                <div class="logo">
+                    <img src="./img/logo.svg" alt="imagen logo">
+                </div>
+                <nav class="nav-principal">
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#menu">Menú</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="texto-header">
+                <h1>Disfruta una excelente taza de café</h1>
+            </div>
+        </div>
+    </header>
+
+    <main id="nosotros" class="contenedor contenido-principal text-center">
+        <section class="conoce">
+            <h2><span>Conoce más</span> sobre nosotros</h2>
+            <p>
+                La Cafeteria abre sus puertas desde muy temprano y durante todo el día brinda al público diferentes opciones para desayuno, almuerzo y merienda. Con una propuesta en cafetería de altísima calidad profesional, distintas opciones de desayunos y/o meriendas, y bollería horneada en el momento, busca generar una experiencia única en el consumidor.</p>
+        </section>
+        <section class="iconos">
+            <ul class="listado-iconos">
+                <li>
+                    <img src="./img/icono_cafe.svg" alt="icono cafe">
+                    <p>Café</p>
+                </li>
+                <li>
+                    <img src="./img/icono_postre.svg" alt="icono cafe">
+                    <p>Postres</p>
+                </li>
+                <li>
+                    <img src="./img/icono_te.svg" alt="icono cafe">
+                    <p>Té</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="experiencia">
+            <h2><span>Vive la</span> experiencia</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/header_proceso.jpg" class="d-block w-100" alt="granos de cafe">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/header_contacto.jpg" class="d-block w-100" alt="taza de cafe">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/header_menu.jpg" class="d-block w-100" alt="taza de cafe">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/header_nosotros.jpg" class="d-block w-100" alt="foto del local">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+    </main>
+    
+
+    <section id="menu" class="nuestro-menu">
+
+        <h2 class="heading-blanco"><span>Nuestro delicioso</span> Menu</h2>
+
+        <div class="contenedor grid-menu">
+            <section class="menu cafe">
+                <h3>Café</h3>
+                <ul>
+                    <li>
+                        <p>Café Cortado <span>Café Espresso con leche caliente evaporada</span> </p>
+                        <p class="precio">$180</p>
+                    </li>
+                    <li>
+                        <p>Café Moccha <span>Espresso con leche y jarabe de chocolate</span> </p>
+                        <p class="precio">$220</p>
+                    </li>
+                    <li>
+                        <p>Café Americano <span>Café Negro clásico</span> </p>
+                        <p class="precio">$160</p>
+                    </li>
+                    <li>
+                        <p>Capuccino<span>Espresso con una capa suave de espuma de leche y una lluvia de cacao</span> </p>
+                        <p class="precio">$220</p>
+                    </li>
+                    <li>
+                        <p>Café Mocha Frio<span>Espresso, dulce con mocha y leche fría.</span> </p>
+                        <p class="precio">$220</p>
+                    </li>
+                    <li>
+                        <p>Mocha Frio Quemado<span>Espresso, hielo, con azucar quemada y canela.</span> </p>
+                        <p class="precio">$230</p>
+                    </li>
+                    <li>
+                        <p>Latte con Caramelo<span>Espresso, leche y jarabe de caramelo.</span> </p>
+                        <p class="precio">$200</p>
+                    </li>
+                    <li>
+                        <p>Submarino<span>Leche con chocolate y cacao espolvoreado.</span> </p>
+                        <p class="precio">$210</p>
+                    </li>
+                    <li>
+                        <p>Té<span>Clasico, verde, boldo o frutales.</span> </p>
+                        <p class="precio">$120</p>
+                    </li>
+                    <li>
+                        <p>Smoothie<span>Chocolate, vainilla o frutales.</span> </p>
+                        <p class="precio">$250</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="menu comida">
+                <h3>Comida</h3>
+                <ul>
+                    <li>
+                        <p>Medialuna <span>Medialuna de manteca con baño de almibar</span> </p>
+                        <p class="precio">$80</p>
+                    </li>
+                    <li>
+                        <p>Bizcocho <span>Masa tradicional de hojaldre crujiente</span> </p>
+                        <p class="precio">$50</p>
+                    </li>
+                    <li>
+                        <p>Baguette de Jamón y Queso<span>Masa de aceite con especias relleno de jamon y queso</span> </p>
+                        <p class="precio">$500</p>
+                    </li>
+                    <li>
+                        <p>Baguette Primavera<span>Masa de aceite con especias relleno de mix de verdes frescos</span> </p>
+                        <p class="precio">$400</p>
+                    </li>
+                    <li>
+                        <p>Desayuno Simple<span>Tostadas con manteca, mermelada y dulce de leche acompañado de jugo natural de naranja + infusión a elección</span> </p>
+                        <p class="precio">$600</p>
+                    </li>
+                    <li>
+                        <p>Desayuno Completo<span>Tostadas con manteca, mermelada, dulce de leche, fetas de jamon y queso, acompañado de jugo natural de naranja y una ensalada de frutas + infusión a elección</span> </p>
+                        <p class="precio">$690</p>
+                    </li>
+                    <li>
+                        <p>Porción de Torta<span>Chocotorta, Marquise de Chocolate, tarta de naranja o manzana, lemonpie, cheesecake. Consultar torta del día</span> </p>
+                        <p class="precio">$250</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+    </section>
+
+
+    <section class="nuestros-testimoniales contenedor bg-white margin-negativo-10">
+        <h2><span>Lo que dicen nuestros</span> clientes</h2>
+
+        <div class="swiper criticas-slider" >
+            <div class="swiper-wrapper">
+               <div class="swiper-slide slide testimonial">
+                  <p>Apenas entré el aroma es exquisito, la atención es su punto más alto, pocas veces se encuentra personal que atiendan con esa dedicación. Muy rico café, recomendable.</p>
+                  <div class="autor">
+                     <img src="img/pic-1.png" alt="">
+                     <div class="entrada">
+                        <h3>~ Fernando Rossi</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      
+               <div class="swiper-slide slide testimonial">
+                  <p>Muy buena ubicación, excelente lugar para deleitarte de cosas muy ricas como ser tortas, alfajores, tostados. Buena relación precio/calidad. Hay opciones para compartir super completas.</p>
+                  <div class="autor">
+                     <img src="img/pic-2.png" alt="">
+                     <div class="entrada">
+                        <h3>~ Sofi Lombardo</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      
+               <div class="swiper-slide slide testimonial">
+                  <p>Excelente atención, el lugar es cálido, y lo mas importante el café es una delicia! Algunas cosas pequeñas que mejorar pero es super recomendable, 100%</p>
+                  <div class="autor">
+                     <img src="img/pic-3.png" alt="">
+                     <div class="entrada">
+                        <h3>~ Alejandro Weber</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      
+               <div class="swiper-slide slide testimonial">
+                  <p>Buena atención, se dispone en un lugar clave. El café es rico disponen de una interesante carta cafetera. El lugar es bien llamativo, la atención rápido y las cosas ricas. El resultado termina siendo excelente.</p>
+                  <div class="autor">
+                     <img src="img/pic-4.png" alt="">
+                     <div class="entrada">
+                        <h3>~ Laura Müller</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      
+               <div class="swiper-slide slide testimonial">
+                  <p>Lugar hermoso, atrás tiene un patio muy cómodo. El café latte riquísimo. Lo más importante de todo es la buena atención, totalmente satisfactoria nuestra visita. Servicio recomendable.   </p>
+                  <div class="autor">
+                     <img src="img/pic-5.png" alt="">
+                     <div class="entrada">
+                        <h3>~ Stefano Bianco</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      
+               <div class="swiper-slide slide testimonial">
+                  <p>Excelente lugar para ir a merendar. Los precios muy buenos y la calidad espectacular. Se nota la elaboración casera en los platos, tortas y postres. La atención es magnífica!</p>
+                  <div class="autor">
+                     <img src="img/pic-6.png" alt="">
+                     <div class="entrada">
+                        <h3>~ Melodi Di Tela</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      
+            </div>
+      
+            <div class="swiper-pagination"></div>
+      
+         </div>
+    </section>
+
+    <section class="contact contenedor bg-white  ">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+
+            <div class="col-6">
+                
+                    <form class="contact-form">
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre y apellido">
+                        </div>
+          
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Ingrese su e-mail</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su E-mail">
+                        </div>
+          
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Ingrese su Nº de telefono</label>
+                          <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Nº de telefono">
+                        </div>
+          
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Envianos tu consulta</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribí tu consulta acá" rows="3"></textarea>
+                        </div>
+          
+                        <div class="boton d-flex justify-content-end">
+                          <input type="submit" class="btn btn-primary "></input>
+                        </div>
+                        
+                      </form>
+                
+                <div class="col-3">
+
+                </div>
+            </div>
+        </div>
+            <div class="row container-fluid mt-3">
+                <div class="col-12 mb-3 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.3322295273097!2d-64.54553505247586!3d-31.97186552507611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2b05df32fdf21%3A0xca30b7769d4566d3!2sX5194%20Villa%20Gral.%20Belgrano%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1667525391321!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <!-- <div class="row">
+                <div class="col-4">
+
+                </div>
+
+                <div class="col-4">
+                    
+                        <form class="contact-form">
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre y apellido">
+                            </div>
+              
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">Ingrese su e-mail</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su E-mail">
+                            </div>
+              
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">Ingrese su Nº de telefono</label>
+                              <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Nº de telefono">
+                            </div>
+              
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Envianos tu consulta</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribí tu consulta acá" rows="3"></textarea>
+                            </div>
+              
+                            <div class="boton d-flex justify-content-end">
+                              <input type="submit" class="btn btn-primary "></input>
+                            </div>
+                            
+                          </form>
+                    
+                    <div class="col4">
+
+                    </div>
+                </div>
+            </div> -->
+        
+        
+        
+    </section>  
+
+    <footer class="footer">
+        <div class="contenedor bg-white contenido-footer">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Villa General Belgrano</p>
+                <p>Calle El Cedro</p>
+            </div>
+            <div class="footer-box reservacion">
+                <h3>Reservación</h3>
+                <p>Tel: 3532132123</p>
+                <a href="tel:+543562132123">Llamar</a>
+            </div>
+            <div class="footer-box horario">
+                <h3>Horario</h3>
+                <p>Lun-Vie: 07:00 - 18:00</p>
+                <p>Sab: 09:00 - 20:00</p>
+            </div>
+        </div>
+        <div class="row contenedor">
+            <!-- <div class="col-4">
+            </div> -->
+            
+            <div class="col-12 d-flex  justify-content-center redes-sociales ">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=3562504877" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> 
+            </div>
+
+            <!-- <div class="col-4">
+            </div> -->
+        </div>
+        <p class="copyright">Todos los Derechos Reservados &copy;</p>
+    </footer>
+
+    <button id="boton__up" class="ir-arriba  ir-arriba-on">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/535a09cd05.js" crossorigin="anonymous"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- bootstrap -->
+    <script src="lib/js/bootstrap.bundle.js"></script>
+    <!-- js -->
+    <script src="app.js"></script>
+</body>
+</html>
